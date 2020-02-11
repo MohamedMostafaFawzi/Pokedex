@@ -60,12 +60,12 @@
 			children = (
 				60A243D323F005430010F83E /* AppDelegate.swift */,
 				60A243D723F005430010F83E /* ViewController.swift */,
+				6064404223F0A7CF00D28355 /* PokemonViewController.swift */,
+				60A243E723F00C6B0010F83E /* Pokemon.swift */,
 				60A243D923F005430010F83E /* Main.storyboard */,
 				60A243DE23F005490010F83E /* LaunchScreen.storyboard */,
 				60A243E123F005490010F83E /* Info.plist */,
 				6064404623F1018100D28355 /* Assets.xcassets */,
-				60A243E723F00C6B0010F83E /* Pokemon.swift */,
-				6064404223F0A7CF00D28355 /* PokemonViewController.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";

@@ -16,7 +16,7 @@ class PokemonViewController: UIViewController {
 
     var pokemon: Pokemon!
     
-    
+    // capitalisation function
     func capitalize (text: String) -> String {
         text.prefix(1).uppercased() + text.dropFirst()
     }
@@ -27,15 +27,18 @@ class PokemonViewController: UIViewController {
         type1Label.text = ""
         type2Label.text = ""
         
+        // Getting the data for the Pokemon, name, number and type
         let url = URL(string: pokemon.url)
         guard let u = url else {
             return
         }
+        // Using URLSession to get the data from the API
         URLSession.shared.dataTask(with: u) { (data, response, error) in
             guard let data = data else {
                 return
             }
             do {
+            // Decoding the data from JSON object
             let pokemonData = try JSONDecoder().decode(PokemonData.self, from: data)
                 
                 DispatchQueue.main.async {

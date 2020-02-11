@@ -18,9 +18,19 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VC9ndnQ" translatesAutoresizingMaskIntoConstraints="NO" id="f3E-Pm-ggO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon-logo" translatesAutoresizingMaskIntoConstraints="NO" id="KFn-zd-NTF">
+                                <rect key="frame" x="67" y="200.5" width="241" height="266"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="266" id="a5L-64-HZg"/>
+                                    <constraint firstAttribute="width" constant="241" id="vus-kr-7MW"/>
+                                    <constraint firstAttribute="height" constant="266" id="yh0-FK-gNC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="KFn-zd-NTF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KlR-2u-TQE"/>
+                            <constraint firstItem="KFn-zd-NTF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LWU-kZ-BNL"/>
                             <constraint firstAttribute="bottom" secondItem="f3E-Pm-ggO" secondAttribute="bottom" id="a7g-Lu-jSo"/>
                             <constraint firstItem="f3E-Pm-ggO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mh4-xf-uqr"/>
                             <constraint firstItem="f3E-Pm-ggO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="srX-c0-sON"/>
@@ -36,5 +46,6 @@
     </scenes>
     <resources>
         <image name="VC9ndnQ" width="360" height="640"/>
+        <image name="pokemon-logo" width="666.5" height="245"/>
     </resources>
 </document>
