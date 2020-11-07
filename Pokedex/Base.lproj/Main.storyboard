@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wtA-U0-mxt">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wtA-U0-mxt">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,19 +14,19 @@
             <objects>
                 <tableViewController id="UbQ-gu-p9Y" customClass="ViewController" customModule="Pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jTN-XE-9hO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PokemonCell" textLabel="KVl-Lz-u8B" style="IBUITableViewCellStyleDefault" id="nMk-fZ-cZN">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nMk-fZ-cZN" id="SRi-Io-01T">
-                                    <rect key="frame" x="0.0" y="0.0" width="348" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="347.66666666666669" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KVl-Lz-u8B">
-                                            <rect key="frame" x="16" y="0.0" width="324" height="44"/>
+                                            <rect key="frame" x="16" y="0.0" width="323.66666666666669" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -53,71 +55,71 @@
             <objects>
                 <viewController id="Clh-a0-T0K" customClass="PokemonViewController" customModule="Pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xmY-6m-8vn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VC9ndnQ" translatesAutoresizingMaskIntoConstraints="NO" id="8hJ-vG-k7w">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VC9ndnQ" translatesAutoresizingMaskIntoConstraints="NO" id="8hJ-vG-k7w">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulbasaur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ime-Vk-XHf">
-                                <rect key="frame" x="100.5" y="365" width="174" height="47"/>
+                                <rect key="frame" x="100.66666666666669" y="409" width="174" height="47"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#001" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIO-5P-0na">
-                                <rect key="frame" x="159" y="425" width="57" height="27.5"/>
+                                <rect key="frame" x="159" y="469" width="57" height="27.666666666666686"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poison" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxl-TA-9ao">
-                                <rect key="frame" x="150" y="476.5" width="75.5" height="33"/>
+                                <rect key="frame" x="149.66666666666666" y="520.66666666666663" width="75.666666666666657" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRW-9B-oyA">
-                                <rect key="frame" x="153.5" y="517.5" width="68" height="33"/>
+                                <rect key="frame" x="153.66666666666666" y="561.66666666666663" width="68" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="made with ❤️ by Canaria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trL-ut-wwH">
-                                <rect key="frame" x="110.5" y="620" width="154" height="16"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon-logo" translatesAutoresizingMaskIntoConstraints="NO" id="daK-NS-6HQ">
-                                <rect key="frame" x="67" y="131" width="241" height="266"/>
+                                <rect key="frame" x="67" y="175" width="241" height="266"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="266" id="qF3-o9-f34"/>
                                     <constraint firstAttribute="width" constant="241" id="w1u-Ob-6t2"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="made with ❤️ by Canaria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trL-ut-wwH">
+                                <rect key="frame" x="111" y="747" width="153" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="5iN-26-TOD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Wxl-TA-9ao" firstAttribute="centerX" secondItem="xmY-6m-8vn" secondAttribute="centerX" id="02y-fl-ZxS"/>
                             <constraint firstItem="Wxl-TA-9ao" firstAttribute="top" secondItem="JIO-5P-0na" secondAttribute="bottom" constant="24" id="29W-66-yy0"/>
                             <constraint firstItem="JIO-5P-0na" firstAttribute="top" secondItem="ime-Vk-XHf" secondAttribute="bottom" constant="13" id="5MP-30-wAq"/>
+                            <constraint firstAttribute="bottom" secondItem="8hJ-vG-k7w" secondAttribute="bottom" id="5dm-dA-X3Z"/>
                             <constraint firstItem="JIO-5P-0na" firstAttribute="top" secondItem="daK-NS-6HQ" secondAttribute="bottom" constant="28" id="82W-hc-dji"/>
                             <constraint firstItem="rRW-9B-oyA" firstAttribute="centerX" secondItem="xmY-6m-8vn" secondAttribute="centerX" id="9NY-4u-jsD"/>
-                            <constraint firstItem="8hJ-vG-k7w" firstAttribute="bottom" secondItem="5iN-26-TOD" secondAttribute="bottom" id="Cwa-RZ-wdD"/>
                             <constraint firstItem="rRW-9B-oyA" firstAttribute="top" secondItem="Wxl-TA-9ao" secondAttribute="bottom" constant="8" id="Di0-Cf-pH4"/>
                             <constraint firstItem="JIO-5P-0na" firstAttribute="centerX" secondItem="xmY-6m-8vn" secondAttribute="centerX" id="LE6-QA-YgM"/>
-                            <constraint firstItem="daK-NS-6HQ" firstAttribute="centerX" secondItem="8hJ-vG-k7w" secondAttribute="centerX" id="RMd-fS-onx"/>
                             <constraint firstItem="daK-NS-6HQ" firstAttribute="centerX" secondItem="xmY-6m-8vn" secondAttribute="centerX" id="YVQ-ob-JVG"/>
                             <constraint firstItem="ime-Vk-XHf" firstAttribute="centerX" secondItem="xmY-6m-8vn" secondAttribute="centerX" id="cPf-eN-3FP"/>
-                            <constraint firstItem="8hJ-vG-k7w" firstAttribute="top" secondItem="xmY-6m-8vn" secondAttribute="top" id="elS-Ds-vWQ"/>
-                            <constraint firstItem="trL-ut-wwH" firstAttribute="top" secondItem="rRW-9B-oyA" secondAttribute="bottom" constant="69.5" id="fVP-Lv-oNU"/>
-                            <constraint firstItem="8hJ-vG-k7w" firstAttribute="leading" secondItem="xmY-6m-8vn" secondAttribute="leading" id="nXv-AN-wxj"/>
+                            <constraint firstItem="8hJ-vG-k7w" firstAttribute="leading" secondItem="xmY-6m-8vn" secondAttribute="leading" id="eoJ-Uh-yMc"/>
+                            <constraint firstAttribute="trailing" secondItem="8hJ-vG-k7w" secondAttribute="trailing" id="gJA-xY-tXg"/>
+                            <constraint firstItem="5iN-26-TOD" firstAttribute="bottom" secondItem="trL-ut-wwH" secondAttribute="bottom" constant="15" id="j0z-he-Wtw"/>
+                            <constraint firstItem="8hJ-vG-k7w" firstAttribute="top" secondItem="xmY-6m-8vn" secondAttribute="top" id="mW8-yt-siz"/>
                             <constraint firstItem="daK-NS-6HQ" firstAttribute="leading" secondItem="5iN-26-TOD" secondAttribute="leading" constant="67" id="ntJ-0n-djA"/>
                             <constraint firstItem="trL-ut-wwH" firstAttribute="centerX" secondItem="xmY-6m-8vn" secondAttribute="centerX" id="p5U-um-vgU"/>
                             <constraint firstItem="daK-NS-6HQ" firstAttribute="top" secondItem="5iN-26-TOD" secondAttribute="top" constant="87" id="vFE-sq-8iZ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="5iN-26-TOD"/>
                     </view>
                     <navigationItem key="navigationItem" id="9DN-Ab-Sfx"/>
                     <connections>
@@ -137,7 +139,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wtA-U0-mxt" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J2A-8r-GEf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -152,6 +154,9 @@
     </scenes>
     <resources>
         <image name="VC9ndnQ" width="360" height="640"/>
-        <image name="pokemon-logo" width="666.5" height="245"/>
+        <image name="pokemon-logo" width="666.66668701171875" height="245.33332824707031"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
